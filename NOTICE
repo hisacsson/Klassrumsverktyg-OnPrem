@@ -1,0 +1,21 @@
+------
+
+This project, Klassrumsverktyg On-Prem, includes the following third-party component:
+
+PHPMailer
+https://github.com/PHPMailer/PHPMailer
+
+PHPMailer is licensed under the GNU Lesser General Public License (LGPL) version 2.1 or later.
+A copy of the license is available at:
+https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+You are free to use, modify, and distribute PHPMailer in compliance with the LGPL-2.1 (or later).
+This project does not modify the PHPMailer licensing terms.
+
+-----------------
+
+Detta projekt innehåller tredjepartskomponenten PHPMailer.
+PHPMailer är licensierat under LGPL-2.1 (eller senare).
+Se https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html för fullständig licenstext.
+
+-----------------

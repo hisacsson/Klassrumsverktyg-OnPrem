@@ -1,0 +1,33 @@
+.widget {
+    position: absolute;
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    min-width: 200px;
+    cursor: move;
+    overflow: visible; /* Changed from hidden to allow resize handle to overflow */
+}
+
+.widget-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Keep content contained */
+}
+
+.resize-handle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: -5px; /* Slightly offset to prevent overlap */
+    right: -5px;  /* Slightly offset to prevent overlap */
+    cursor: se-resize;
+    background: #4a5568;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+    z-index: 10; /* Ensure it's above widget content */
+}
+
+.resize-handle:hover {
+    opacity: 0.8;
+}
